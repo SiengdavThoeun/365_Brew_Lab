@@ -1,0 +1,175 @@
+* {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+}
+
+.food-content-container {
+    width: 100%;
+}
+
+.food-content-container .food-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 51%;
+    margin-top: 30%;
+    height: 55vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/foods.png);
+    font-family: "Helvetica Neue";
+    color: #4270B7;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+.text h2 {
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+/* List Foods */
+
+.list-foods {
+    padding: 2rem;
+    color: #303030;
+}
+
+.banner {
+    padding: 0 0 1.8rem 0;
+}
+
+.banner p:nth-child(1) {
+    margin: 10px 0px;
+    font-size: 15px;
+
+}
+
+.banner p {
+    font-size: 12px;
+}
+
+.group-food {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    flex-basis: 46%;
+}
+
+.img-food {
+    border: 1px solid #707070;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 3.5rem;
+
+}
+
+.title-food {
+    padding: 1rem 0rem;
+}
+
+.column {
+    margin: 5px;
+}
+
+.column:nth-child(1) p {
+    font-size: 15px;
+    color: #303030;
+}
+
+.column:nth-child(2) p {
+    font-size: 12px;
+    color: #303030;
+}
+@media screen and (min-width: 700px){
+
+    .img-food {
+        padding: 6rem;
+    }
+
+
+}
+@media screen and (min-width: 768px)  {
+    .group-food {
+        padding: 0 3rem 2rem 3rem;
+    }
+    .food {
+        flex-basis: 23%;
+        padding: 1%;
+
+    }
+
+    .banner {
+        padding: 2rem  0 2rem  4rem;
+    }
+    .img-food {
+        padding: 4.7rem;
+    }
+
+}
+@media (min-width: 1024px) {
+    .food-content-container .food-img {
+        margin-top: 10%;
+    }
+
+    .banner {
+        padding: 2rem  0 2rem  6rem;
+    }
+    .text {
+        margin-top: 0%;
+    }
+
+    .group-food {
+        padding: 0 4rem 2rem 4rem;
+    }
+    
+    .food {
+        flex-basis: 23%;
+        padding: 1%;
+        
+    }
+
+    .img-food {
+        padding: 6rem;
+    }
+
+    
+}
+@media screen and (min-width: 1050px) {
+
+    .food {
+        flex-basis: 22%;
+        padding: 1%;
+    }  
+
+    .banner {
+        padding: 2rem  0 2rem  6rem;
+    }
+
+    .group-food {
+        display: flex;
+        justify-content: center;
+        padding: 0 4rem 2rem 4rem;
+    }
+
+    .img-food {
+        padding: 6.5rem;
+    }
+}

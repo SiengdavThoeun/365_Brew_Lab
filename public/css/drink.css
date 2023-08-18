@@ -1,0 +1,144 @@
+* {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+}
+
+.drink-content-container {
+    width: 100%;
+}
+
+.drink-content-container .drink-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 51%;
+    margin-top: 30%;
+    height: 55vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(../img/drink.png);
+    font-family: "Helvetica Neue";
+    color: #4270B7;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+.text h2 {
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+/* List Drinks */
+.list-drink {
+    /* width: 100%; */
+    padding: 2rem;
+    color: #303030;
+}
+
+.group-drink {
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+
+.banner {
+    
+    padding: 0 0 1rem 0;
+}
+
+.banner p:nth-child(1) {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.banner p {
+    font-size: 12px;
+}
+
+.drink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #b3b0b0;
+    margin: 6px 0px 6px 0px ;
+}
+
+.img-drink {
+    margin: 5px 0px;
+}
+
+/* .title-drink {
+    margin: 0px 0px 0px 5px;
+} */
+
+.price {
+    text-align: right;
+
+    
+}
+.price p {
+    font-size: 15px;
+    color: #303030;
+} 
+.column {
+    margin: 5px;
+}
+
+.column:nth-child(1) p {
+    text-align: left;
+    font-size: 15px;
+    color: #303030;
+}
+
+.column:nth-child(2) p {
+    font-size: 12px;
+    color: #303030;
+}
+
+@media screen and (min-width: 768px)  {
+    .drink {
+        flex-basis: 48%;
+        margin: 5px;
+    }
+
+    .title-drink {
+        margin-left: -20%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    .drink-content-container .drink-img {
+        margin-top: 10%;
+    }
+
+    .list-drink {
+        padding:  3rem 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .drink {
+        display: flex;
+        
+        /* justify-content: center; */
+        /* flex-basis: 40%; */
+        
+    }
+    
+}

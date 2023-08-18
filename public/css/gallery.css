@@ -1,0 +1,39 @@
+* {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-content-container {
+    width: 100%;
+}
+
+.gallery-content-container .gallery-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 51%;
+    margin-top: 30%;
+    height: 55vh;
+    background-image: url(../img/gallery.png);
+    font-family: "Helvetica Neue";
+    color: #4270B7;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+.text h2 {
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.text p {
+    font-size: 15px;
+}

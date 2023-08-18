@@ -1,0 +1,361 @@
+* {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+
+}
+
+.home-content-container {
+    width: 100%;
+    font-family: "Helvetica Neue";
+    color: #4270B7;
+}
+
+.poster {
+    display: flex;
+    background-size: cover;
+    background-position: 34%;
+    margin-top: 30%;
+    height: 55vh;
+    background-image: url(../img/img-home.png);
+    width: 100%;
+}
+
+
+
+.home-content-info {
+    background-color: #D2CAB9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+.home-content-info .info-top h2 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.info-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.content-info {
+    padding: 2rem;
+}
+
+.info-col {
+    padding: 2rem 0rem;
+}
+
+.info-col h2 {
+    font-size: 20px;
+}
+
+.info-col h2 {
+    font-style: italic;
+    padding: 1rem;
+}
+
+.info-col p {
+    font-size: 15px;
+}
+
+/* Signature Menu */
+
+.signature-menu, .interior, .service {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.text-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-menu h2 {
+    font-size: 15px;
+}
+
+.text-menu p {
+    font-size: 12px;
+    padding: 1rem 0rem;
+}
+
+.group-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-left,
+.img-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-col1 img, .img-col img {
+    width: 100%;
+}
+
+.img-left img {
+    width: 50%;
+    /* Adjust the percentage as needed */
+}
+
+/* Interior */
+
+
+.interior .group-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+.interior .group-holder button {
+    font-size: 14px;
+    border: 1px solid #707070;
+    padding: 30%;
+    margin: 6px 0px;
+    background-color: white;
+    font-family: "Helvetica Neue";
+    color: #4270B7;
+}
+
+.interior .button {
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.interior .button button {
+    background-color: white;
+    color: #4270B7;
+    border: 1px solid #4270B7;
+    padding: 15px;
+    /* width: 10%; */
+    max-width: initial;
+}
+
+/* Delivery Service */
+
+.delivery-services {
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-position: 37%;
+    height: 40vh;
+    background-image: url(../img/i1.png);
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.service .text-menu {
+    padding: 0rem 4rem;
+}
+
+.service .text-menu h2 {
+    font-size: 15px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.phone img {
+    padding: 10px;
+    margin-left: -10px;
+    border-radius: 40px;
+    background-color: #4270B7;
+}
+
+.phone p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 718px) {
+    .poster {
+        display: flex;
+        background-size: cover;
+        background-position: 10%;
+        margin-top: 30%;
+        height: 55vh;
+        background-image: url(../img/Home.png);
+        width: 100%;
+    }
+}
+
+/*  */
+@media screen and (min-width: 768px) {
+    .content-info {
+        display: flex;
+    }
+
+    .info-col p {
+        color: black;
+    }
+    
+    .info-col {
+        padding:  0rem 1rem;
+    }
+    .signature-menu, .interior, .service {
+        padding: 4rem;
+
+    }
+
+    .interior .group-holder button {
+        padding: 12% 6%;
+        margin: 5px;
+    }
+
+    .interior .button {
+        justify-content: end;
+    }
+
+    .group-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service {
+        align-items: start;
+    }
+
+    .contact-delivery {
+        align-items: start;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .contact-delivery .app-stores {
+        margin-left: 10%;
+    }
+
+    .service .text-menu {
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .phone {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 839px) {
+
+    .signature-menu, .interior, .service {
+        padding: 5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .poster {
+        margin-top: 10%;
+    }
+    .signature-menu, .interior {
+        padding: 7rem 7rem 2rem 7rem;
+    }
+
+
+
+    @media screen and (max-width: 1473px) {
+
+        .interior .group-holder button {
+            padding: 10% 7%;
+            margin: 10px;
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 1473px) {
+    .interior .group-holder button {
+        padding: 10% 9%;
+        margin: 10px;
+    }
+
+    .poster {
+        margin-top: 9%;
+    }
+
+    .text-menu {
+        padding: 0rem 4rem;
+    }
+
+    .delivery-services {
+        background-position: 30%;
+        height: 50vh;
+        background-image: url(../img/i1.png);
+    }
+
+    .service {
+        margin-left: 5.5rem;
+        align-items: start;
+    }
+
+    .group-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-col {
+        padding: 0rem 5rem ;
+        padding-bottom: 3rem;
+    }
+
+    .contact-delivery {
+        align-items: start;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    .contact-delivery .app-stores {
+        margin-left: 10%;
+    }
+
+    .service .text-menu {
+        padding: 0;
+        margin-right: 4rem;
+    }
+
+}
